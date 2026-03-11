@@ -13,7 +13,7 @@ export function MissionStatement() {
          
          <FadeUpBlock delay={0.2}>
            <h2 className="font-serif text-3xl md:text-5xl text-[var(--color-text)] font-light leading-[1.4] mb-12">
-             "This is the Private Office of Yusuf Al Thani. Acting with absolute discretion, strategic vision, and a commitment to long-term value generation in the UAE and beyond."
+             &quot;This is the Private Office of Yusuf Al Thani. Acting with absolute discretion, strategic vision, and a commitment to long-term value generation in the UAE and beyond.&quot;
            </h2>
          </FadeUpBlock>
 

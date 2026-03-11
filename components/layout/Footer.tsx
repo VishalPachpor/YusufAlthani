@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import { CONTACT_EMAIL } from '@/lib/constants';
 
 export function Footer() {
@@ -13,7 +14,7 @@ export function Footer() {
           {/* Logo & Info */}
           <div className="max-w-xs">
             <Link href="/" aria-label="Yusuf Al Thani Private Office">
-               <img src="/logo.png" alt="Yusuf Al Thani Private Office" className="h-20 w-auto object-contain mb-6" />
+               <Image src="/logo.png" alt="Yusuf Al Thani Private Office" width={160} height={80} className="h-20 w-auto object-contain mb-6" />
             </Link>
           </div>
 

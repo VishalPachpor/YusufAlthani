@@ -1,4 +1,3 @@
-import { ReactNode } from 'react';
 import { GoldRule } from './Decorations';
 
 export function PageHeader({ 

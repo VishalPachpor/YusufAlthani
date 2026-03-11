@@ -34,7 +34,7 @@ export default function UAEPage() {
             <div className="grid md:grid-cols-3 gap-8 mb-24">
               <div className="bg-[#111] p-8 border border-[var(--color-border)] hover:border-[var(--color-gold)] transition-colors">
                 <h3 className="text-[var(--color-gold)] font-mono text-sm tracking-widest uppercase mb-4">01. Connectivity</h3>
-                <p className="text-[var(--color-text-muted)] font-light text-sm">Positioned at the crossroads of East and West, providing frictionless access to a third of the world's population within a four-hour flight.</p>
+                <p className="text-[var(--color-text-muted)] font-light text-sm">Positioned at the crossroads of East and West, providing frictionless access to a third of the world&apos;s population within a four-hour flight.</p>
               </div>
               <div className="bg-[#111] p-8 border border-[var(--color-border)] hover:border-[var(--color-gold)] transition-colors">
                 <h3 className="text-[var(--color-gold)] font-mono text-sm tracking-widest uppercase mb-4">02. Stability</h3>

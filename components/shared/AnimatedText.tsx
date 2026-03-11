@@ -11,7 +11,6 @@ type AnimatedTextProps = {
 
 export function AnimatedText({ 
   text, 
-  as: Component = 'p', 
   className = '',
   delay = 0
 }: AnimatedTextProps) {
@@ -21,7 +20,7 @@ export function AnimatedText({
 
   const container = {
     hidden: { opacity: 0 },
-    visible: (i = 1) => ({
+    visible: () => ({
       opacity: 1,
       transition: { staggerChildren: 0.12, delayChildren: delay * 0.1 }
     })
@@ -32,7 +31,7 @@ export function AnimatedText({
       opacity: 1,
       y: 0,
       transition: {
-        type: 'spring',
+        type: 'spring' as const,
         damping: 12,
         stiffness: 100
       }
@@ -41,7 +40,7 @@ export function AnimatedText({
       opacity: 0,
       y: 20,
       transition: {
-        type: 'spring',
+        type: 'spring' as const,
         damping: 12,
         stiffness: 100
       }

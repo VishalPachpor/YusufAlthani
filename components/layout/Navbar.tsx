@@ -1,6 +1,7 @@
 'use client';
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { NAV_LINKS } from '@/lib/constants';
 import { MobileDrawer } from './MobileDrawer';
 import { usePathname } from 'next/navigation';
@@ -18,6 +19,7 @@ export function Navbar() {
 
   // Close mobile menu on route change
   useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setMobileOpen(false);
   }, [pathname]);
 
@@ -29,7 +31,7 @@ export function Navbar() {
     >
       <nav className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
         <Link href="/" aria-label="Yusuf Al Thani Private Office" className="relative z-50">
-          <img src="/logo.png" alt="Yusuf Al Thani Private Office" className="h-14 w-auto object-contain" />
+          <Image src="/logo.png" alt="Yusuf Al Thani Private Office" width={112} height={56} className="h-14 w-auto object-contain" priority />
         </Link>
 
         {/* Desktop nav */}

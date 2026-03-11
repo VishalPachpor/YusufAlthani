@@ -5,7 +5,6 @@ import { NAV_LINKS, CONTACT_EMAIL } from '@/lib/constants';
 
 export const MobileDrawer = ({
   open,
-  onClose,
   id
 }: {
   open: boolean;

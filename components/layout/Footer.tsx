@@ -32,14 +32,6 @@ export function Footer() {
             </nav>
           </div>
 
-          {/* Direct Email */}
-          <div className="flex flex-col gap-4">
-             <h3 className="font-mono text-xs uppercase tracking-[0.2em] text-[var(--color-text-muted)] mb-2">Direct Enquiry</h3>
-             <a href={`mailto:${CONTACT_EMAIL}`} className="text-[var(--color-gold)] font-mono text-sm tracking-wider hover:opacity-80 transition-opacity">
-               {CONTACT_EMAIL}
-             </a>
-          </div>
-        </div>
 
         {/* Bottom Bar */}
         <div className="flex flex-col md:flex-row items-center justify-between pt-8 border-t border-[var(--color-border)] gap-6 text-xs text-[var(--color-text-muted)]">

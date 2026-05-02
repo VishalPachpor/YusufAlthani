@@ -15,10 +15,6 @@ export function ContactCTA() {
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
             <Button href="/contact" variant="primary">Contact Office</Button>
-            <span className="text-[var(--color-text-muted)] italic font-serif">or</span>
-            <a href={`mailto:${CONTACT_EMAIL}`} className="text-[var(--color-gold)] font-mono text-sm tracking-widest uppercase hover:opacity-80 transition-opacity">
-              Direct Enquiry
-            </a>
           </div>
         </FadeUpBlock>
       </div>

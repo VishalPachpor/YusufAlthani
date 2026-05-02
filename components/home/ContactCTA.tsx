@@ -1,5 +1,4 @@
 import { FadeUpBlock } from '../shared/AnimatedText';
-import { CONTACT_EMAIL } from '@/lib/constants';
 import { Button } from '../shared/Button';
 
 export function ContactCTA() {

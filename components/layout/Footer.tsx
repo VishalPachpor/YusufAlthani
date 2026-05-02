@@ -1,6 +1,5 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import { CONTACT_EMAIL } from '@/lib/constants';
 
 export function Footer() {
   const currentYear = new Date().getFullYear();
@@ -31,7 +30,7 @@ export function Footer() {
               <Link href="/contact" className="text-sm hover:text-[var(--color-gold)] transition-colors">Contact</Link>
             </nav>
           </div>
-
+        </div>
 
         {/* Bottom Bar */}
         <div className="flex flex-col md:flex-row items-center justify-between pt-8 border-t border-[var(--color-border)] gap-6 text-xs text-[var(--color-text-muted)]">

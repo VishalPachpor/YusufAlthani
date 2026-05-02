@@ -1,5 +1,4 @@
 import { ContactForm } from '@/components/contact/ContactForm';
-import { CONTACT_EMAIL } from '@/lib/constants';
 import { PageHeader } from '@/components/shared/PageHeader';
 import { Navbar } from '@/components/layout/Navbar';
 import { Footer } from '@/components/layout/Footer';
@@ -29,15 +28,6 @@ export default function ContactPage() {
                 </p>
                 
                 <div className="space-y-8">
-                  <div>
-                    <p className="font-mono text-xs tracking-widest uppercase text-[var(--color-text-muted)] mb-2">Electronic Mail</p>
-                    <a
-                      href={`mailto:${CONTACT_EMAIL}`}
-                      className="text-[var(--color-gold)] font-mono text-sm tracking-wider hover:opacity-80 transition-opacity"
-                    >
-                      {CONTACT_EMAIL}
-                    </a>
-                  </div>
                   <div>
                     <p className="font-mono text-xs tracking-widest uppercase text-[var(--color-text-muted)] mb-2">Headquarters</p>
                     <p className="text-[var(--color-text)] font-light text-sm">

@@ -13,7 +13,6 @@ export const metadata: Metadata = {
     type: 'website',
   },
   robots: { index: true, follow: true },
-  icons: { icon: '/favicon.ico', apple: '/apple-touch-icon.png' },
 };
 
 export default function RootLayout({
